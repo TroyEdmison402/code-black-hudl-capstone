@@ -18,6 +18,7 @@
 - Now, hit `Send` and you should see the menu get returned in JSON form!
 
 > Tip: The authtoken you set as a cookie in Postman will eventually expire. If it's been awhile since you've copied a new authtoken into Postman and your API calls aren't working, try logging into Hudl again to get another authtoken and replace your cookie value.
+> This endpoint uses mocked data, so while adding and deleting items will return changes in the response payload, there's no database connected, so adding or deleting items won't persist those changes upon subsequent calls. That means if you add an item to the menu or delete an item, it'll work just for that one time. If you get the menu again, it'll be back to its original state.
 
 ## Making an API POST call
 - Now, we'll make a POST call to make a change to the menu. Let's try adding a menu item.

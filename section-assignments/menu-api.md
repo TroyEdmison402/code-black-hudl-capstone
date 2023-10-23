@@ -2,6 +2,7 @@
 
 ## Scenario
 Your job is to write the test plan and execute the test cases for an API that mimicks a restaurant menu.
+> This endpoint uses mocked data, so while adding and deleting items will return changes in the response payload, there's no database connected, so adding or deleting items won't persist those changes upon subsequent calls. That means if you add an item to the menu or delete an item, it'll work just for that one time. If you get the menu again, it'll be back to its original state.
 
 ## Pre-work Guides
 - [API Introduction](../guides/api-introduction.md)
